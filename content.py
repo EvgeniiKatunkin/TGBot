@@ -1,1 +1,1 @@
-main_menu = ('Hi', 'Location', 'Goodbye', 'Help', 'About')
+main_menu = ('Hi', 'Location', 'Goodbye', 'About')
