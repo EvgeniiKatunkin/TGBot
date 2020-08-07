@@ -7,5 +7,6 @@ token = '1358105852:AAGTyGSjOksynswDARWNJAiH9uwKWRMsXws'
 # Keyboards
 def keyboard(*args):
     current_keybooard = telebot.types.ReplyKeyboardMarkup(True, True)
-    current_keybooard.row(*args)
+    for button in args:
+        current_keybooard.row(button)
     return current_keybooard
