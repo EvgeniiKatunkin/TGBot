@@ -3,7 +3,6 @@ import config
 import content
 
 bot = telebot.TeleBot(config.token)
-test = ('Hi', 'Location', 'Goodbye', 'Help', 'About')
 
 
 @bot.message_handler(commands=['start', 'help'])
