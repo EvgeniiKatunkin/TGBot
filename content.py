@@ -2,11 +2,11 @@
 main_menu = ('Location', 'About')
 
 # The tuples for greeting and parting
-hello = ('Hi', 'Hello', 'Good morning', 'Good evening', 'Good afternoon', 'Good day',
-         "What's up", 'Hei', 'Привет', 'Здравствуй', 'Добрый день', 'Доброе утро',
-         'Добрый вечер', 'Здорова', 'Здравствуйте', 'Приветствую')
-goodbye = ('Goodbye', 'Bye', 'Good night', 'Farewell', 'Пока', 'Досвидания',
-           'Счастливо', 'Прощай', 'Спокойной ночи', 'До встречи', 'До свидания')
+hello = ('hi', 'hello', 'good morning', 'good evening', 'good afternoon', 'good day',
+         "what's up", 'hei', 'привет', 'здравствуй', 'добрый день', 'доброе утро',
+         'добрый вечер', 'здорова', 'здравствуйте', 'приветствую')
+goodbye = ('goodbye', 'bye', 'good night', 'farewell', 'пока', 'досвидания',
+           'счастливо', 'прощай', 'спокойной ночи', 'до встречи', 'до свидания')
 
 # Stickers
 stickers = (
