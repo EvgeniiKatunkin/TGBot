@@ -1,6 +1,10 @@
 # The file with the essential structures the bot checked
 main_menu = ('Где ты находишься?', 'О боте')
 
+#Coordinates on the user's map
+location_latitude = 58.968060
+location_longitude = 5.732880
+
 # The tuples for greeting and parting
 hello = ('hi', 'hello', 'good morning', 'good evening', 'good afternoon', 'good day',
          "what's up", 'hei', 'привет', 'здравствуй', 'добрый день', 'доброе утро',
