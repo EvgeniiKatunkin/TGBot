@@ -2,6 +2,8 @@ import os
 import telebot
 from dotenv import load_dotenv
 
+load_dotenv()
+
 # Token of the bot in telegram
 token = os.getenv('TOKEN')
 
