@@ -1,7 +1,9 @@
+import os
 import telebot
+from dotenv import load_dotenv
 
 # Token of the bot in telegram
-token = '1358105852:AAGTyGSjOksynswDARWNJAiH9uwKWRMsXws'
+token = os.getenv('TOKEN')
 
 
 def keyboard(buttons: str) -> 'Keyboard':
